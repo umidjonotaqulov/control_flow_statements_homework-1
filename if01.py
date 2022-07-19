@@ -1,4 +1,4 @@
-def main(a):
+def main():
     """
     If the number is positive, increase it to 1, else leave unchanged.
     Args:
@@ -6,4 +6,12 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """
-    return
+    return 
+a=4
+if a>0:
+    s=a+1
+
+if a<=0:
+    s=a
+
+print(s)
